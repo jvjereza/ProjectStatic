@@ -1,3 +1,6 @@
+/*=========================================================
+          Login Page
+=========================================================*/
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10648,7 +10651,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #f35588;
+  color: #000;
 }
 a:hover,
 a:focus {
@@ -10734,7 +10737,7 @@ h5,
   background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
   background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
   background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
-  background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+  background: linear-gradient(135deg, #000 0%, #ff0051 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 );
   color: #fff;
 }
@@ -10898,10 +10901,10 @@ h5,
 
 /* Style the checkmark/indicator */
 .checkbox-primary {
-  color: #f35588;
+  color: gray;
 }
 .checkbox-primary input:checked ~ .checkmark:after {
-  color: #f35588;
+  color: #ea004a;
 }
 
 .btn {
@@ -10918,16 +10921,15 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: #f35588;
-  border: 1px solid #f35588;
+  background: red;
+  border: 1px solid #000;
   color: #fff;
-  background: #f75959;
+  background: red;
   background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, #f75959),
-    color-stop(100%, #f35587)
+    color-stop(0%, red) color-stop(100%, #f35587)
   );
   background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
   background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
@@ -10938,12 +10940,12 @@ h5,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 );
 }
 .btn.btn-primary:hover {
-  border: 1px solid #f35588;
-  background: #f35588;
+  border: 1px solid #000;
+  background: red;
   color: #fff;
 }
 .btn.btn-primary.btn-outline-primary {
-  border: 1px solid #f35588;
+  border: 1px solid #000;
   background: transparent;
   color: #f35588;
 }
