@@ -29,7 +29,7 @@
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/signup.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -251,6 +251,103 @@
     </div>
     <!-- /BREADCRUMB -->
 
+    <!--Sign Up section-->
+    <br />
+
+    <div class="signup-container">
+      <div class="row">
+        <div class="signup-left">
+          <div class="sign-img"></div>
+          <div class="login-header">
+            <h1 class="login-welcome">Welcome to Noys</h1>
+            <h3 class="login-welcome">Sign Up</h3>
+          </div>
+          <div class="w-100">
+            <p class="social-media d-flex justify-content-end">
+              <a
+                href="#"
+                class="social-icon d-flex align-items-center justify-content-center"
+                ><span class="fa fa-facebook"></span
+              ></a>
+              <a
+                href="#"
+                class="social-icon d-flex align-items-center justify-content-center"
+                ><span class="fa fa-twitter"></span
+              ></a>
+              <a
+                href="#"
+                class="social-icon d-flex align-items-center justify-content-center"
+                ><span class="fa fa-google"></span
+              ></a>
+            </p>
+          </div>
+          <form id="signup" class="signup-form">
+            <div class="signup-form-content">
+              <div class="form-content">
+                <label class="label" for="FirstName">First Name:</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="FirstName"
+                  placeholder="First Name"
+                />
+                <label class="label" for="LastName">First Name:</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="LastName"
+                  placeholder="Last Name"
+                />
+                <label class="label" for="username">Username:</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="username"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="form-content">
+                <label class="label" for="password">Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="form-content">
+                <label class="label" for="password">Repeat Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="buttonlogin">
+                <button class="SignUpAccount" type="submit">Sign Up</button>
+              </div>
+              <br />
+              <div class="formbutton">
+                <label class="checkbox-primary"
+                  >Remember Me
+                  <input type="checkbox" name="rememberme" checked="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <br />
+              <div class="fcontent">
+                <a href="#">Forgot Password</a>
+              </div>
+            </div>
+          </form>
+          <p class="text-center">
+            Already a member?
+            <a data-toggle="tab" class="Login" href="#login">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </div>
     <!-- SECTION -->
     <div class="section">
       <!-- container -->
@@ -317,13 +414,13 @@
               <div class="footer">
                 <h3 class="footer-title">About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  The best music & live streaming audio store, that can help you
+                  can get the best audio equipment possible.
                 </p>
                 <ul class="footer-links">
                   <li>
                     <a href="#"
-                      ><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a
+                      ><i class="fa fa-map-marker"></i>1734 23rd Avenue</a
                     >
                   </li>
                   <li>
@@ -343,10 +440,10 @@
                 <h3 class="footer-title">Categories</h3>
                 <ul class="footer-links">
                   <li><a href="#">Hot deals</a></li>
-                  <li><a href="#">Laptops</a></li>
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Cameras</a></li>
-                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Audio Interface</a></li>
+                  <li><a href="#">Microphones</a></li>
+                  <li><a href="#">Bass Guitars</a></li>
+                  <li><a href="#">Audio Mixers</a></li>
                 </ul>
               </div>
             </div>
@@ -409,6 +506,9 @@
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-cc-amex"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-wallet"></i></a>
                 </li>
               </ul>
               <span class="copyright">

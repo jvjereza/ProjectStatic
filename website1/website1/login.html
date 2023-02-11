@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="/PowerPoint/Noys Rockhouse.jpg" />
     <title>Noys Rockhouse</title>
@@ -29,7 +29,8 @@
 
     <!-- Custom stylesheet -->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/styles.css"> 
+    <link type="text/css" rel="stylesheet" href="/website1/website1/css/login.css"/>
+     
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -251,96 +252,54 @@
       </head>
      
       <!--LogIn section-->
-        <section class="ftco-section">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-6 text-center mb-5">
-                <h2 class="heading-section">Login Page</h2>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-10">
-                <div class="wrap d-md-flex">
-                  <div
-                    class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last"
-                  >
-                    <div class="text w-100">
-                      <h2>Welcome to login</h2>
-                      <p>Don't have an account?</p>
-                      <a href="#" class="btn btn-white btn-outline-white"
-                        >Sign Up</a
-                      >
-                    </div>
-                  </div>
-                  <div class="login-wrap p-4 p-lg-5">
-                    <div class="d-flex">
-                      <div class="w-100">
-                        <h3 class="mb-4">Sign In</h3>
-                      </div>
-                      <div class="w-100">
-                        <p class="social-media d-flex justify-content-end">
-                          <a
-                            href="#"
-                            class="social-icon d-flex align-items-center justify-content-center"
-                            ><span class="fa fa-facebook"></span
-                          ></a>
-                          <a
-                            href="#"
-                            class="social-icon d-flex align-items-center justify-content-center"
-                            ><span class="fa fa-twitter"></span
-                          ></a>
-                          <a href="#"
-                            class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-google-plus"></span>
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                    <form action="#" class="signin-form">
-                      <div class="form-group mb-3">
-                        <label class="label" for="name">Username</label>
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Username"
-                          required
-                        />
-                      </div>
-                      <div class="form-group mb-3">
-                        <label class="label" for="password">Password</label>
-                        <input
-                          type="password"
-                          class="form-control"
-                          placeholder="Password"
-                          required
-                        />
-                      </div>
-                      <div class="form-group">
-                        <button
-                          type="submit"
-                          class="form-control btn btn-primary submit px-3"
-                        >
-                          Sign In
-                        </button>
-                      </div>
-                      <div class="form-group d-md-flex">
-                        <div class="w-50 text-left">
-                          <label class="checkbox-wrap checkbox-primary mb-0"
-                            >Remember Me
-                            <input type="checkbox" checked />
-                            <span class="checkmark"></span>
-                          </label>
-                        </div>
-                        <div class="w-50 text-md-right">
-                          <a href="#">Forgot Password</a>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <br>
+
+      <div class="login-container">
+        <div class="row ">
+        <div class="login-left">
+          <div class="login-img">
           </div>
-        </section>
+          <div class="login-header">
+            <h1 class="login-welcome">Welcome to Noys</h1>
+            <h3 class="login-welcome">Sign In</h3>
+          </div>
+          <div class="w-100">
+            <p class="social-media d-flex justify-content-end">
+            <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+            <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+            <a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a>
+            </p>
+            </div>
+          <form id="login" class="login-form">
+            <div class="login-form-content">
+              <div class="form-content"> 
+              <label class="label" for="username">Username:</label>
+              <input class="form-control" type="text" id="username" placeholder="Username"/>
+            </div>
+            <div class="form-content">
+              <label class="label" for="password">Password:</label>
+              <input type="password" id="password" class="form-control" placeholder="Password">
+            </div>
+              <div class="buttonlogin">
+                <button class="LoginAccount" type="submit">Sign In</button>
+              </div>
+              <br>
+              <div class="formbutton">
+                <label class="checkbox-primary">Remember Me
+                <input type="checkbox" name="rememberme" checked="">
+                <span class="checkmark"></span>
+              </label>
+              </div>
+              <br>
+              <div class="fcontent">
+                <a href="#">Forgot Password</a>
+              </div>
+            </div>
+          </form>
+          <p class="text-center">Not a member? <a data-toggle="tab" class="sign-up" href="#signup">Sign Up</a></p>
+        </div>
+        </div>
+      </div>
         <!-- /row -->
       </div>
       <!-- /container -->
@@ -413,13 +372,13 @@
               <div class="footer">
                 <h3 class="footer-title">About Us</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut.
+                  The best music & live streaming audio store, that can help you
+                  can get the best audio equipment possible.
                 </p>
                 <ul class="footer-links">
                   <li>
                     <a href="#"
-                      ><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a
+                      ><i class="fa fa-map-marker"></i>1734 23rd Avenue</a
                     >
                   </li>
                   <li>
@@ -439,10 +398,10 @@
                 <h3 class="footer-title">Categories</h3>
                 <ul class="footer-links">
                   <li><a href="#">Hot deals</a></li>
-                  <li><a href="#">Laptops</a></li>
-                  <li><a href="#">Smartphones</a></li>
-                  <li><a href="#">Cameras</a></li>
-                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Audio Interface</a></li>
+                  <li><a href="#">Microphones</a></li>
+                  <li><a href="#">Bass Guitars</a></li>
+                  <li><a href="#">Audio Mixers</a></li>
                 </ul>
               </div>
             </div>
@@ -505,6 +464,9 @@
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-cc-amex"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-wallet"></i></a>
                 </li>
               </ul>
               <span class="copyright">

@@ -1,0 +1,229 @@
+/*=========================================================
+          Login Page
+=========================================================*/
+.w-100 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.social-media {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 25px;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  background: #000000;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+.login-container {
+  max-width: 720px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 37px;
+  background: #ff0404;
+  background: -webkit-linear-gradient(top, #d10024, #ffffff);
+  background: -o-linear-gradient(top, #d10024, #fdfdfd);
+  background: -moz-linear-gradient(top, #d10024, #000000);
+  background: linear-gradient(top, #7579ff, #b224ef);
+}
+
+.row {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.login-welcome {
+  text-align: center;
+}
+.LoginAccount {
+  background: #d10024 !important;
+  border: 1px solid #d10024 !important;
+  color: #fff !important;
+  font-weight: bold;
+  height: 48px;
+  padding-left: 1rem !important;
+  border-radius: 0.25rem !important;
+  transition: none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  width: 100%;
+  overflow: visible;
+  -webkit-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.LoginAccount:hover,
+.LoginAccount:focus,
+.LoginAccount:active {
+  outline: none;
+  text-decoration: none;
+}
+
+.LoginAccount:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+.LoginAccount {
+  box-shadow: none !important;
+  font-size: 15px;
+  padding: 10px 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.LoginAccount [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+.form-control {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow: visible;
+  margin: 0;
+  font-family: inherit;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.form-content {
+  position: relative;
+  margin-bottom: 1rem !important;
+}
+
+.form-content .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+}
+.checkbox-primary {
+  color: #000000;
+  display: block;
+  position: relative;
+  padding-left: 2px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.fcontent {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.text-center {
+  text-align: center !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+* ::before ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sign-up {
+  background-color: transparent;
+  transition: 0.3s all ease;
+  text-align: center !important;
+}
