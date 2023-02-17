@@ -1,0 +1,72 @@
+/* Define a custom box-shadow class */
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Set minimum width for the profile tab nav */
+.profile-tab-nav {
+  min-width: 250px;
+}
+
+/* Flexbox rule to ensure the content takes up all available space */
+.tab-content {
+  flex: 1;
+}
+
+/* Margin-bottom for form group */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Styling for nav pills */
+.nav-pills a.nav-link {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  color: #333;
+}
+.nav-pills a.nav-link i {
+  width: 20px;
+}
+
+/* Styling for user image */
+.img-circle img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+
+/* Styling for buttons */
+.btn {
+  background-color: #d10024;
+  color: white;
+}
+
+/* Styling for account and password tabs */
+#password {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+#account:hover + #password,
+#password:hover {
+  display: block;
+}
+
+/* Remove bullets for list items */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Remove default margins for body */
+body {
+  margin: 0;
+}
